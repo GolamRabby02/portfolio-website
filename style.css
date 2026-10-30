@@ -5290,3 +5290,72 @@ label {
     }
 }
 
+
+/* @social icon */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+/* Facebook */
+.social-icons a:nth-child(1) {
+    background: #1877F2;
+}
+
+/* Instagram */
+.social-icons a:nth-child(2) {
+    background: #E4405F;
+}
+
+/* LinkedIn */
+.social-icons a:nth-child(3) {
+    background: #0A66C2;
+}
+
+/* Discord */
+.social-icons a:nth-child(4) {
+    background: #5865F2;
+}
+
+/* Telegram */
+.social-icons a:nth-child(5) {
+    background: #229ED9;
+}
+
+/* WhatsApp */
+.social-icons a:nth-child(6) {
+    background: #25D366;
+}
+
+/* Twitter X */
+.social-icons a:nth-child(7) {
+    background: #363333;
+}
+
+/* GitHub */
+.social-icons a:nth-child(8) {
+    background: #24292F;
+}
+
+/* YouTube */
+.social-icons a:nth-child(9) {
+    background: #FF0000;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
